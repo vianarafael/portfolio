@@ -24,16 +24,22 @@
       <div class="logo">
         <img src="./img/logo.png" alt="" />
       </div>
-      <button class="nav-toggle" aria-lable="toggle-navigation">
+
+      <button class="nav-toggle" aria-lable="toggle navigation">
         <span class="hamburger"></span>
       </button>
+
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav_item"><a href="#home">Home</a></li>
-          <li class="nav_item"><a href="#services">My Services</a></li>
+          <li class="nav_item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav_item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
 
-          <li class="nav_item"><a href="#about">About Me</a></li>
-          <li class="nav_item"><a href="#work">Work</a></li>
+          <li class="nav_item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav_item"><a href="#work" class="nav__link">Work</a></li>
         </ul>
       </nav>
     </header>
@@ -90,60 +96,77 @@
     <section class="about-me">
       <h2 class="section__title section__title--about">Who I am</h2>
       <p class="section__subtitle section__subtitle--about">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere,
-        reiciendis quo. Adipisci, possimus. Sit, dolorem. Eius, dolorem
-        laudantium inventore aut laborum autem non id tempora dolorum magni
-        consectetur minima? Sed.
+        Full-Stack developer based out of Tokyo
       </p>
       <div class="about-me__body">
-        <p></p>
-        <p></p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere,
+          reiciendis quo. Adipisci, possimus. Sit, dolorem. Eius, dolorem
+          laudantium inventore aut laborum autem non id tempora dolorum magni
+          consectetur minima? Sed.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere,
+          reiciendis quo. Adipisci, possimus. Sit, dolorem. Eius, dolorem
+          laudantium inventore aut laborum autem non id tempora dolorum magni
+          consectetur minima? Sed.
+        </p>
       </div>
-      <img src="./img/working.jpg" alt="Rafael working" />
+      <img src="./img/working.jpg" alt="Rafael working" class="about-me__img" />
     </section>
 
     <!-- My Work  -->
     <section class="my-work" id="work">
-      <h2 class="section__title">My work</h2>
-      <p class="section__subtitle"></p>
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle sectio__subtitle--work">
+        Some of my projects
+      </p>
 
       <div class="portfolio">
         <!-- Portfolio Item 01  -->
         <a href="" class="portfolio__item">
-          <img src="" alt="" class="portfolio__img" />
+          <img src="./img/cc.png" alt="" class="portfolio__img" />
         </a>
         <!-- Portfolio Item 02  -->
         <a href="" class="portfolio__item">
-          <img src="" alt="" class="portfolio__img" />
+          <img src="./img/crwn-clothing.png" alt="" class="portfolio__img" />
         </a>
         <!-- Portfolio Item 03  -->
         <a href="" class="portfolio__item">
-          <img src="" alt="" class="portfolio__img" />
+          <img src="img/rafaflix.png" alt="" class="portfolio__img" />
         </a>
         <!-- Portfolio Item 04  -->
         <a href="" class="portfolio__item">
-          <img src="" alt="" class="portfolio__img" />
+          <img src="img/sortingVisualizer.png" alt="" class="portfolio__img" />
         </a>
       </div>
     </section>
 
     <!-- Footer  -->
-    <footer>
+    <footer class="footer">
       <a href="mailto:vianarafaelds@gmail.com" class="footer__link"
         >vianarafaelds@gmail.com</a
       >
       <ul class="social-list">
         <li class="social-list__item">
-          <a href="" class="social-list__link">a</a>
+          <a href="" class="social-list__link">
+            <i class="fab fa-github"></i>
+          </a>
         </li>
         <li class="social-list__item">
-          <a href="" class="social-list__link">b</a>
+          <a href="" class="social-list__link">
+            <i class="fab fa-linkedin"></i>
+          </a>
         </li>
         <li class="social-list__item">
-          <a href="" class="social-list__link">c</a>
+          <a href="" class="social-list__link">
+            <i class="fab fa-twitter"></i>
+          </a>
         </li>
         <li class="social-list__item">
-          <a href="" class="social-list__link">d</a>
+          <a href="" class="social-list__link">
+            <i class="fab fa-youtube"></i>
+          </a>
         </li>
       </ul>
     </footer>
